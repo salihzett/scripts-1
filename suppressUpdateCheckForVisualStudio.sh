@@ -62,7 +62,7 @@ finalLocation="${directoryPath}/${fileName}"
 	/bin/echo "$(date) Writing the file in place"
 
 	/bin/echo "{
-    "update.channel": "none"
+    "update.mode": "none"
 }" > "${finalLocation}"
 
 # Permission the file correctly
